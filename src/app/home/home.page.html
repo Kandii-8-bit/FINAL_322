@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+       Your Personal Movie Library!
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title class="signupTitle">Make an Account</ion-card-title>
+    </ion-card-header>
+  <!-- Start of signing in -->
+    <ion-card-content>
+      <form> 
+      <ion-item>
+        <ion-label position="stacked">Email Address: </ion-label>
+        <ion-input for="email"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Password: </ion-label>
+        <ion-input for="password"></ion-input>
+      </ion-item>
+
+      <ion-button (click)="signUp()" type="submit" expand="block" color="tertiary" routerLink="/login">Sign Up</ion-button>
+    </form>
+     
+    </ion-card-content>
+  </ion-card>
+</ion-content>

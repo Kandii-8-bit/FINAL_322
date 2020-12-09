@@ -1,0 +1,17 @@
+ion-searchbar {
+  background-color: #5282a0;
+}
+
+ion-item {
+  background-color: black;
+
+  ion-thumbnail {
+    background-position: center;
+    background-size: cover;
+  }
+
+  img {
+    margin-top: 5px;
+    align-items: center;
+  }
+}

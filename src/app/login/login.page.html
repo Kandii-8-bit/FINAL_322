@@ -1,0 +1,28 @@
+
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title class="loginTitle">Please Login</ion-card-title>
+    </ion-card-header>
+  <!-- Start of logging in -->
+    <ion-card-content>
+      <form> 
+      <ion-item>
+        <ion-label position="stacked">Email Address: </ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Password: </ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+
+      <ion-button (click)="login()" type="submit" expand="block" color="tertiary" routerLink="/movies">Login</ion-button>
+      <ion-button (click)="logout()" type="submit" expand="block" color="tertiary">Logout</ion-button>
+    </form>
+     
+    </ion-card-content>
+  </ion-card>
+ 
+</ion-content>
